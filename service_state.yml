@@ -1,6 +1,6 @@
 ---
 - name: Check Status
-  hosts: node1
+  hosts: sv
   become: true
   vars:
     package: "httpd"
